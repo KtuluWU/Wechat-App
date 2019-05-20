@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">
+    <h1>FDJ幸运数生成机</h1>
+  </view>
+  <view class="tips">
+    <text class="user-motto">{{tips}}</text>
+  </view>
+  <view class='author-block'>
+    <view class='author-title'>
+      <text>作者</text>
+    </view>
+  
+    <view class='author'>
+      <text>{{author}}</text>
+    </view>
+  </view>
+</view>

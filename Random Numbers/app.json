@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/eurom/index",
+    "pages/loto/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "欧洲彩票摇号机",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home.png"
+    },{
+      "pagePath": "pages/eurom/index",
+      "text": "欧洲百万",
+      "iconPath": "images/eurom.jpeg",
+      "selectedIconPath": "images/eurom.jpeg"
+    },
+    {
+      "pagePath": "pages/loto/index",
+      "text": "乐透",
+      "iconPath": "images/loto.jpeg",
+      "selectedIconPath": "images/loto.jpeg"
+    }]
+
+  }
+}

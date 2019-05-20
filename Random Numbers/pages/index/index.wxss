@@ -1,0 +1,19 @@
+/**index.wxss**/
+.title {
+  margin-top: 15%;
+  color: #243f85;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tips {
+  margin-top: 20%;
+  color: #fcb749;
+}
+
+.author-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+}

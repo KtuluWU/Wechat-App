@@ -1,0 +1,17 @@
+<view class="container">
+  <view class='logo'>
+    <image class='logo_image' src='/images/loto_logo.jpg'></image>
+  </view>
+  <view class='numbers-block'>
+    <view class='numbers1-block'>
+      <text class='number1' wx:for="{{res1}}">{{item}}</text>
+    </view>
+    <view class='numbers2-block'>
+      <text class='number2' wx:for="{{res2}}">{{item}}</text>
+    </view>
+  </view>
+  
+  <view class="button-block">
+    <button type='primary' bindtap='randomNumGenerator'>生成号码</button>
+  </view>
+</view>

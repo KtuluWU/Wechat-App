@@ -1,0 +1,57 @@
+/* pages/loto/index.wxss */
+.container {
+  padding-top: 15% !important;
+}
+.numbers-block {
+  width: 80%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.numbers1-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers2-block {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.number1 {
+  font-weight: 20px;
+  font-size: 20px;
+  padding: 10px;
+  width: 26px;
+  height: 26px;
+  color: white;
+  background-color: #00a2d9;
+  border-radius: 50%;
+}
+
+.number2 {
+  font-weight: 20px;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  width: 26px;
+  height: 26px;
+  color: white;
+  background-color: #ea3946;
+  border-radius: 50%;
+}
+
+.button-block {
+  margin-top: 50px;
+}
+
+.logo {
+  width: 80%;
+  text-align: center;
+}
+
+.logo_image {
+  width: 80%;
+}
