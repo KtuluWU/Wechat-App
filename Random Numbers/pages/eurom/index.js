@@ -102,6 +102,13 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    t
+    return {
+      title: 'FDJ幸运数生成机',
+      imageUrl: '/images/fdj.jpg',
+      path: '/pages/index/index'
+    }
+    wx.showShareMenu({
+      withShareTicket: true
+    })
   }
 })

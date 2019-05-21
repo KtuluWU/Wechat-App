@@ -51,5 +51,15 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onShareAppMessage: function () {
+    return {
+      title: 'FDJ幸运数生成机',
+      imageUrl: '/images/fdj.jpg',
+      path: '/pages/index/index'
+    }
+    wx.showShareMenu({
+      withShareTicket: true
+    })
   }
 })
