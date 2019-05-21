@@ -8,7 +8,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "欧洲彩票摇号机",
+    "navigationBarTitleText": "FDJ幸运数生成机",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
@@ -20,13 +20,13 @@
       "selectedIconPath": "images/home.png"
     },{
       "pagePath": "pages/eurom/index",
-      "text": "欧洲百万",
+      "text": "EuroMillions",
       "iconPath": "images/eurom.jpeg",
       "selectedIconPath": "images/eurom.jpeg"
     },
     {
       "pagePath": "pages/loto/index",
-      "text": "乐透",
+      "text": "LOTO",
       "iconPath": "images/loto.jpeg",
       "selectedIconPath": "images/loto.jpeg"
     }]
