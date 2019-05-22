@@ -26,8 +26,23 @@
   width: 26px;
   height: 26px;
   color: white;
-  background-color: #00a2d9;
+  /*background-color: #00a2d9;*/
+  background: radial-gradient(circle at 50% 120%, #8CFCFC, #8CFCFC 10%, #00a2d9 80%, #00a2d9 100%);
   border-radius: 50%;
+  position: relative;
+}
+
+.number1::before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  -webkit-filter: blur(5px);
+  z-index: 2;
 }
 
 .number2 {
@@ -39,8 +54,23 @@
   width: 26px;
   height: 26px;
   color: white;
-  background-color: #ea3946;
+  /*background-color: #ea3946;*/
+  background: radial-gradient(circle at 50% 120%, #FFA6A6, #FFA6A6 10%, #ea3946 80%, #ea3946 100%);
   border-radius: 50%;
+  position: relative;
+}
+
+.number2::before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  -webkit-filter: blur(5px);
+  z-index: 2;
 }
 
 .button-block {

@@ -8,7 +8,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "FDJ幸运数生成机",
+    "navigationBarTitleText": "幸运数生成机",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
