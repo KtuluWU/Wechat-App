@@ -2,8 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/eurom/index",
-    "pages/loto/index"
+    "pages/em/index",
+    "pages/lt/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,18 +17,18 @@
       "pagePath": "pages/index/index",
       "text": "首页",
       "iconPath": "images/home.png",
-      "selectedIconPath": "images/home.png"
+      "selectedIconPath": "images/home_hl.png"
     },{
-      "pagePath": "pages/eurom/index",
-      "text": "EuroMillions",
-      "iconPath": "images/eurom.jpeg",
-      "selectedIconPath": "images/eurom.jpeg"
+      "pagePath": "pages/em/index",
+      "text": "5+2",
+      "iconPath": "images/em.png",
+      "selectedIconPath": "images/em_hl.png"
     },
     {
-      "pagePath": "pages/loto/index",
-      "text": "LOTO",
-      "iconPath": "images/loto.jpeg",
-      "selectedIconPath": "images/loto.jpeg"
+      "pagePath": "pages/lt/index",
+      "text": "5+1",
+      "iconPath": "images/lt.png",
+      "selectedIconPath": "images/lt_hl.png"
     }]
 
   }

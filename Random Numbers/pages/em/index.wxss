@@ -4,7 +4,7 @@
 }
 .numbers-block {
   width: 80%;
-  margin-top: 20%;
+  margin-top: 250rpx;
   text-align: center;
 }
 
@@ -44,14 +44,5 @@
 }
 
 .button-block {
-  margin-top: 50px;
-}
-
-.logo {
-  width: 80%;
-  text-align: center;
-}
-
-.logo_image {
-  width: 80%;
+  margin-top: 150rpx;
 }
