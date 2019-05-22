@@ -9,6 +9,6 @@
   </view>
   
   <view class="button-block">
-    <button type='primary' bindtap='randomNumGenerator'>生成号码(EuroMilllions)</button>
+    <button type='primary' bindtap='randomNumGenerator'>生成号码</button>
   </view>
 </view>
