@@ -103,7 +103,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'FDJ幸运数生成机',
+      title: '幸运数生成机',
       imageUrl: '/images/fdj.jpg',
       path: '/pages/index/index'
     }
