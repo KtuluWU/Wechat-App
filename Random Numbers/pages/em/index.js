@@ -43,7 +43,7 @@ Page({
     return res;
   },
 
-  randomNumGenerator: function (e) {
+  randomNumGenerator: function () {
     this.setData({
       res1: this.resGenerator(5, 50),
       res2: this.resGenerator(2, 12)

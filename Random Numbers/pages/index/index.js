@@ -4,7 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    tips: '请根据需要在底部选择相应类型',
     author: '喝酸奶只舔盖儿',
     userInfo: {},
     hasUserInfo: false,
